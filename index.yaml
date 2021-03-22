@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   mlflow:
   - apiVersion: v2
-    appVersion: 1.13.1
-    created: "2021-03-22T13:06:34.7813849Z"
+    appVersion: 1.14.0
+    created: "2021-03-22T14:47:21.9981236Z"
     description: A Helm chart for Kubernetes
-    digest: 77b9220dea28b30d2e5b6cdb6abd6b345809159cb568bf7a6bf5a6af01faa52a
+    digest: 2aa1e257ce4e87048f482a681900fb608b76b04c6e03162f8051bee9fa520ff7
     name: mlflow
     type: application
     urls:
     - mlflow-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-22T13:06:34.7770878Z"
+generated: "2021-03-22T14:47:21.9973152Z"
