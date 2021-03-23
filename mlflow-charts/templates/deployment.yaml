@@ -42,10 +42,13 @@ spec:
             value: {{ .Values.backend_store_uri }}
           - name: DEFAULT_ARTIFACT_ROOT
             value: {{ .Values.default_artifact_root }}
+          {{- if .Values.minio.url }}            
           - name: MLFLOW_S3_ENDPOINT_URL
             value: {{ .Values.minio.url }}
+          {{- if .Values.minio.accesskey }}    
           - name: AWS_ACCESS_KEY_ID
             value: {{ .Values.minio.accesskey }}
+          {{- if .Values.minio.secretkey }}      
           - name: AWS_SECRET_ACCESS_KEY
             value: {{ .Values.minio.secretkey }}              
           readinessProbe:
