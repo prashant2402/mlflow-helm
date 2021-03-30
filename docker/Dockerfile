@@ -1,7 +1,7 @@
 # Defining base image
 FROM python:3.8-slim-buster
 
-ARG MLFLOW_VERSION=1.13.1
+ARG MLFLOW_VERSION=1.14.1
 # Installing packages from PyPi
 RUN apt-get update \
     && apt-get install -y --no-install-recommends default-libmysqlclient-dev libpq-dev build-essential \
