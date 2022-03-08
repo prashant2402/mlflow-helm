@@ -30,4 +30,4 @@ helm install mlflow mlflow-helm/mlflow --set image.repository=<repository> --set
 
 - `kubectl wait --namespace default --for=condition=ready pod --selector=app.kubernetes.io/name=mlflow --timeout=90s`
 
-Testing breaking change
+Testing breaking change the correct way
