@@ -1,5 +1,13 @@
 # Changelog
 
+# [2.3.0](https://github.com/prashant2402/mlflow-helm/compare/v2.2.0...v2.3.0) (2022-03-08)
+
+
+### Features
+
+* **pipeline:** add changelog to git ([6bdd54c](https://github.com/prashant2402/mlflow-helm/commit/6bdd54c432c9ce7063418f166d36f90aadb1e341))
+* **pipeline:** code clean up ([aaefdfd](https://github.com/prashant2402/mlflow-helm/commit/aaefdfd3f4a7041c442e929a1968fb724c60d705))
+
 # [2.2.0](https://github.com/prashant2402/mlflow-helm/compare/v2.1.0...v2.2.0) (2022-03-08)
 
 
