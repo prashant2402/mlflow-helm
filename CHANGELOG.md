@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/prashant2402/mlflow-helm/compare/v2.0.0...v2.1.0) (2022-03-08)
+
+
+### Features
+
+* **pipeline:** add github release ([50d41ee](https://github.com/prashant2402/mlflow-helm/commit/50d41ee6224eab782afcaa9184ac11901a39b318))
+
 # [2.0.0](https://github.com/prashant2402/mlflow-helm/compare/v1.1.1...v2.0.0) (2022-03-08)
 
 
