@@ -12,7 +12,7 @@
 - ```
   helm repo add mlflow 'https://raw.githubusercontent.com/prashant2402/mlflow-helm/master'
   helm repo update
-  
+
   ```
 - For mysql:
 ```
@@ -30,3 +30,4 @@ helm install mlflow mlflow-helm/mlflow --set image.repository=<repository> --set
 
 - `kubectl wait --namespace default --for=condition=ready pod --selector=app.kubernetes.io/name=mlflow --timeout=90s`
 
+Added automatic changelog config
