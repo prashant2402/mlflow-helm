@@ -5,7 +5,11 @@
   "plugins": [
     ["@semantic-release/npm", {
       "npmPublish": false
-    }]
+    }],
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/git",
+    "@semantic-release/changelog"
   ],
-  "dryRun": true
+  "dryRun": false
 }
