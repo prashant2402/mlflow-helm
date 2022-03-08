@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.5.0](https://github.com/prashant2402/mlflow-helm/compare/v2.4.0...v2.5.0) (2022-03-08)
+
+
+### Features
+
+* **pipeline:** happy with the setup ([04a3771](https://github.com/prashant2402/mlflow-helm/commit/04a3771fdf3cb45fdca0f4e21270ee6ff2e31053))
+
 # [2.4.0](https://github.com/prashant2402/mlflow-helm/compare/v2.3.0...v2.4.0) (2022-03-08)
 
 
