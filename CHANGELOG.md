@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.4.0](https://github.com/prashant2402/mlflow-helm/compare/v2.3.0...v2.4.0) (2022-03-08)
+
+
+### Features
+
+* **pipeline:** test package-lock exclude ([973da13](https://github.com/prashant2402/mlflow-helm/commit/973da13b618c203ac2ccab22bea93b4e3012a26f))
+
 # [2.3.0](https://github.com/prashant2402/mlflow-helm/compare/v2.2.0...v2.3.0) (2022-03-08)
 
 
