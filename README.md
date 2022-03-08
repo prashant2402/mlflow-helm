@@ -16,6 +16,7 @@
 - For mysql:
 ```
 helm install mlflow mlflow-helm/mlflow --set image.repository=<repository> --set backend_store_uri=mysql://root:$MYSQL_PASSWORD@mysql-headless.default.svc.cluster.local:3306/mlflow --set default_artifact_root=./mlruns
+
 ```
 - For Postgres:
 ```

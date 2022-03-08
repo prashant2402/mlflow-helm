@@ -1,0 +1,11 @@
+{
+  "release": {
+    "branches": ["master"]
+  },
+  "plugins": [
+    ["@semantic-release/npm", {
+      "npmPublish": false
+    }]
+  ],
+  "dryRun": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mlflow-helm",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}
